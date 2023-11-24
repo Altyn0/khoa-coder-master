@@ -49,17 +49,17 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.btn-link{
+.btn-link, .link-a{
   border: none;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   background: none;
   text-decoration: underline;
-  cursor: pointer;
   color: white;
 }
 .link-a{
   text-decoration: none;
   color:  #7439db;
+  cursor: pointer;
 }

@@ -24,7 +24,9 @@ const RegisterComponent = (props) => {
         <input className='input-form' value={email} onChange={(e)=>setEmail(e.target.value)} type='email' placeholder='YourEmail@gmail.com' id='email' name='email'/>
         <label className='label-form' htmlFor='password'>PassWord :</label>
         <input className='input-form' value={pass} onChange={(e)=>setPass(e.target.value)} type='password' placeholder='*******' id='password' name='password'/>
-        <button className='btn-form' type='submit'> <Link className='link-a' to={'/homescreen'}> Log in </Link> </button>
+        <Link className='link-a' to={'/homescreen'}>
+        <button className='btn-form' type='submit'>  Log in  </button>
+        </Link>
     </form>
     <button className='btn-link' onClick={()=>props.onFormSwitch('login')} >Already have an account? Login here.</button>
    </div>
